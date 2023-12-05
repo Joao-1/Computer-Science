@@ -1,0 +1,1 @@
+This repository aims to be used as a registry of my studies in computer science. Actually, I don't study computer science at a university or on a course, and I don't want to in the future either. However, I know that is very important to my career as a software engineer, so I will study on my own.
