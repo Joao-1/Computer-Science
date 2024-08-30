@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func insertSort(values *[]int) {
+func InsertSort(values *[]int) {
 	a := *values
 	for i := 0; i <= len(a)-1; i++ {
 		key := a[i]
@@ -20,6 +20,6 @@ func insertSort(values *[]int) {
 
 func main() {
 	values := []int{2, 3, 5, 4, 1, 6}
-	insertSort(&values)
+	InsertSort(&values)
 	fmt.Println(values)
 }
