@@ -22,4 +22,7 @@ func main() {
 	values := []int{2, 3, 5, 4, 1, 6}
 	InsertSort(&values)
 	fmt.Println(values)
+
+	result := Sum(&values)
+	fmt.Println(result)
 }

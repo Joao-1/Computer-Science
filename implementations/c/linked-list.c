@@ -22,7 +22,6 @@ int main() {
     struct Node node1;
     node1.value = 1;
     Prepend(&list, &node1);
-
 }
 
 struct Node *Search(struct LinkedList *list, struct Int *number) {
